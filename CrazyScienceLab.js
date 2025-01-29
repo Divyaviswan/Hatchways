@@ -18,8 +18,9 @@ return({
 
     //TAsk3
 
-  //We can't use shorthand method in an Arrow function.
-  
+  //You cannot rebind this in an arrow function. It will always be defined as the context in which it was defined. If you require this to be meaningful you should use a normal function.
+
+
 
 
 });
